@@ -96,3 +96,58 @@ const createIterator = (array = []) => {
   };
 };
 ```
+
+## 🧑‍💼 Work Experience
+
+- Junior Fullstack Developer (Self-taught / Learning Projects)
+  Remote | Self-employed
+  2023 – Present
+
+- Developed personal web applications using Angular (frontend) and NestJS (backend).
+- Built RESTful APIs, connected them to databases using Prisma ORM , and tested endpoints with Postman .
+- Practiced responsive design and used SCSS and BEM methodology to create clean and maintainable UI.
+- Gained experience in version control using Git / GitHub , writing clear commit messages, and working with branches.
+- Improved problem-solving skills by solving coding challenges and implementing real-world features like authentication and form validation.
+- Although I am currently looking for my first official position as a junior developer, I'm actively building projects to improve my technical and soft skills and prepare for collaborative work in professional environments.
+
+## 🎓 Education
+
+### RSSchool (Rolling Scopes School)
+
+_Online IT School_
+
+1. Stage 0 – Introduction to JavaScript and Programming
+
+- Completed tasks including DOM manipulation, event handling, ES6+ syntax, OOP basics, and algorithmic thinking.
+
+2. Stage 1–2 – JavaScript/Frontend Core
+
+- Studied core JavaScript, asynchronous programming, browser APIs, and worked on team projects with HTML/CSS/JS. Completed the final project — a virtual store with shopping cart functionality.
+
+3. Stage 3 - Angular Course
+   Completed an intensive Angular course where I learned how to build dynamic single-page applications using:
+
+- Components, directives, pipes
+- Dependency injection and services
+- Reactive programming with RxJS
+- Template and reactive forms
+- HTTP client for API interaction
+- Routing and navigation
+- Integration with PrimeNG UI library
+
+### Self-study & Online Courses
+
+- Frontend Mentor , FreeCodeCamp , JavaScript.info — practicing coding and improving HTML/CSS/JS skills.
+- Udemy: The Complete NestJS Course — learning backend development with TypeScript and Node.js.
+- Angular University — studying Angular fundamentals, RxJS, and advanced patterns.
+
+## 🌍 English Language
+
+Level : B2 (Upper Intermediate)
+
+- Regular practice through:
+- Reading technical documentation (MDN Web Docs, Angular docs, NestJS docs)
+- Watching English tech videos and tutorials
+- Participating in English-speaking online communities (Discord, Reddit, Stack Overflow)
+- Writing code comments, commits, and documentation in English
+- Comfortable reading and understanding technical texts, participating in discussions, and communicating with teammates in written English.
