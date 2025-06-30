@@ -1,5 +1,7 @@
 # 🧑‍💻 Maxim Zabaluev
 
+![Avatar](./avatar.ppg)
+
 ## 📨 Contacts:
 
 - [telegram](https://t.me/maksberve)
