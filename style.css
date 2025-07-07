@@ -140,11 +140,69 @@ p {
 }
 
 .skill-item:nth-of-type(2n + 1)::before {
-  content: "👉";
+  content: "⭐";
   margin-right: 0.5rem;
 }
 
 .skill-item:nth-of-type(2n)::after {
-  content: "👈";
+  content: "⭐";
   margin-left: 0.5rem;
+}
+
+.projects {
+  margin: 2rem 0;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 400;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.project-item {
+  border: 0.2rem dotted #9577de;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 400;
+}
+
+.project-item strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #b7a3eb;
+}
+
+.project-item a {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-decoration: none;
+  background-color: #563d93;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: #d8d4d4;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.project-item a:hover {
+  background-color: #b7a3eb;
+  color: #292828;
 }
