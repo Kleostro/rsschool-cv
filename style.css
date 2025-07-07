@@ -5,6 +5,7 @@
   max-width: 1200px;
   min-height: 100vh;
   background-color: #3e3e3e;
+  padding: 0 1rem;
 }
 
 .header {
@@ -64,7 +65,7 @@
 }
 
 .username {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 0;
   color: #fff;
   letter-spacing: 0.2rem;
@@ -73,11 +74,21 @@
 }
 
 .tags {
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
   font-style: italic;
   margin: 0;
   color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+
+.about {
+  margin: 2rem 0;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
   text-align: center;
   font-weight: 400;
 }
