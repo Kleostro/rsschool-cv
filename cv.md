@@ -1,6 +1,6 @@
 # 🧑‍💻 Maxim Zabaluev
 
-![Avatar](/avatar.png)
+![Avatar](/assets/avatar.png)
 
 ## 📨 Contacts:
 

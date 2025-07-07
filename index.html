@@ -1,9 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - kleostro</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body class="body">
+    <header class="header">
+      <div class="header-container">
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-me">
+          <img src="assets/avatar.png" alt="avatar" class="avatar" />
+          <div class="text-me">
+            <h1 class="username">Kleostro</h1>
+            <p class="tags">
+              Frontend Developer | Creative Coder | GitHub Explorer
+            </p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm kleostro — a passionate frontend developer with a love for
+          clean code and interactive design. I thrive on solving problems
+          through elegant UI/UX solutions and exploring the depths of modern web
+          technologies.
+        </p>
+      </section>
+
+      <section id="skills" class="section skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li class="skill-item">HTML5 & CSS3</li>
+          <li class="skill-item">JavaScript</li>
+          <li class="skill-item">Responsive Design</li>
+          <li class="skill-item">TypeScript</li>
+          <li class="skill-item">UI Animation</li>
+          <li class="skill-item">Angular</li>
+          <li class="skill-item">Git & GitHub</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <ul class="project-list">
+          <li class="project-item">
+            <strong>Greenshop</strong> – Online store for buying and selling
+            plants. <br /><a
+              href="https://github.com/stardustmeg/greenshop"
+              target="_blank"
+              >github</a
+            >
+          </li>
+          <li class="project-item">
+            <strong>Tu-tu</strong> – Angular app for searching and buying
+            tickets for travel. <br /><a
+              href="https://github.com/kleostro/tu-tu"
+              target="_blank"
+              >github</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section id="education" class="section education">
+        <h2>Education & English Level</h2>
+        <ul class="education-list">
+          <li>Self-taught in Web Development</li>
+          <li>Intermediate English (B1/B2 level)</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a
+              class="contact-link"
+              href="https://t.me/maksberve"
+              target="_blank"
+              >telegram</a
+            >
+          </li>
+          <li class="contact-item">
+            <a
+              class="contact-link"
+              href="https://github.com/kleostro"
+              target="_blank"
+              >github</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="section code-example">
+        <h2 class="code-example-title">Code Example</h2>
+        <pre class="code"><code>
+          const createIterator = (array = []) => {
+            let index = 0;
+            return {
+              next: () => {
+                const result = array[index];
+                index++;
+                return { done: index >= array.length, value: result };
+              },
+            };
+          };
+        </code></pre>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p>&copy; 2025 kleostro</p>
+        <a
+          class="footer-link"
+          href="https://github.com/kleostro "
+          target="_blank"
+          >github</a
+        >
+        <p>
+          <a
+            href="https://rs.school/courses/javascript-preschool-ru"
+            target="_blank"
+          >
+            <img
+              src="assets/rs-school-logo.svg"
+              alt="RS School Logo"
+              class="logo"
+            />
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
