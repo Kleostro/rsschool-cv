@@ -79,6 +79,22 @@
           <li>Intermediate English (B1/B2 level)</li>
         </ul>
       </section>
+
+      <section class="section code-example">
+        <h2>Code Example</h2>
+        <pre><code>
+          const createIterator = (array = []) => {
+            let index = 0;
+            return {
+              next: () => {
+                const result = array[index];
+                index++;
+                return { done: index >= array.length, value: result };
+              },
+            };
+          };
+        </code></pre>
+      </section>
     </main>
   </body>
 </html>
