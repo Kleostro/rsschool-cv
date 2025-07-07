@@ -224,3 +224,34 @@ p {
   list-style: none;
   padding: 0;
 }
+
+.code-example {
+  margin: 2rem 0;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 400;
+}
+
+.code-example-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #b7a3eb;
+}
+
+.code {
+  display: block;
+  margin: 0 auto;
+  border: 0.2rem dotted #9577de;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 400;
+}
